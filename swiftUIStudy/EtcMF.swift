@@ -1,19 +1,18 @@
 //
-//  CalculatorMF.swift
+//  EtcMF.swift
 //  swiftUIStudy
 //
-//  Created by 이지훈 on 5/10/24.
+//  Created by 이지훈 on 5/25/24.
 //
 
-import Foundation
 import SwiftUI
 
-struct CalculatorButtonModifier: ViewModifier {
+struct EtcMF: ViewModifier {
     
     func body(content: Content) -> some View {
         content
             .frame(width: 80, height: 80)
-            .background(Color.gray.opacity(0.5))
+            .background(Color.gray)
             .cornerRadius(60)
             .foregroundColor(.white)
             .font(.system(size: 40))
@@ -22,7 +21,7 @@ struct CalculatorButtonModifier: ViewModifier {
 }
 
 extension View {
-    func calculatorButtonStyle() -> some View {
-        self.modifier(CalculatorButtonModifier())
+    func EtcButtonStyle() -> some View {
+        self.modifier(EtcMF())
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784DDEC82C01012C0061B432 /* EtcMF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784DDEC72C01012C0061B432 /* EtcMF.swift */; };
 		78CE0C8D2BEE16C100A00FE3 /* CalculatorMF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE0C8C2BEE16C100A00FE3 /* CalculatorMF.swift */; };
 		78CE0C902BEE177B00A00FE3 /* OperationMF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE0C8F2BEE177B00A00FE3 /* OperationMF.swift */; };
 		78F327FB2BE799EF001EAC45 /* swiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F327FA2BE799EF001EAC45 /* swiftUIStudyApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		784DDEC72C01012C0061B432 /* EtcMF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcMF.swift; sourceTree = "<group>"; };
 		78CE0C8C2BEE16C100A00FE3 /* CalculatorMF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMF.swift; sourceTree = "<group>"; };
 		78CE0C8F2BEE177B00A00FE3 /* OperationMF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationMF.swift; sourceTree = "<group>"; };
 		78F327F72BE799EF001EAC45 /* swiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 			children = (
 				78F327FA2BE799EF001EAC45 /* swiftUIStudyApp.swift */,
 				78F327FC2BE799EF001EAC45 /* ContentView.swift */,
+				784DDEC72C01012C0061B432 /* EtcMF.swift */,
 				78CE0C8F2BEE177B00A00FE3 /* OperationMF.swift */,
 				78CE0C8C2BEE16C100A00FE3 /* CalculatorMF.swift */,
 				78F327FE2BE799F1001EAC45 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				78CE0C902BEE177B00A00FE3 /* OperationMF.swift in Sources */,
 				78F327FD2BE799EF001EAC45 /* ContentView.swift in Sources */,
+				784DDEC82C01012C0061B432 /* EtcMF.swift in Sources */,
 				78CE0C8D2BEE16C100A00FE3 /* CalculatorMF.swift in Sources */,
 				78F327FB2BE799EF001EAC45 /* swiftUIStudyApp.swift in Sources */,
 			);
