@@ -12,6 +12,8 @@
 		78F327FD2BE799EF001EAC45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F327FC2BE799EF001EAC45 /* ContentView.swift */; };
 		78F327FF2BE799F1001EAC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F327FE2BE799F1001EAC45 /* Assets.xcassets */; };
 		78F328022BE799F1001EAC45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F328012BE799F1001EAC45 /* Preview Assets.xcassets */; };
+		78F839572C12E614002B7AD7 /* calculatorBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F839562C12E614002B7AD7 /* calculatorBtnView.swift */; };
+		78F839592C12E84D002B7AD7 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F839582C12E84D002B7AD7 /* CalculatorVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		78F327FC2BE799EF001EAC45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78F327FE2BE799F1001EAC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F328012BE799F1001EAC45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78F839562C12E614002B7AD7 /* calculatorBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorBtnView.swift; sourceTree = "<group>"; };
+		78F839582C12E84D002B7AD7 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				78F327FA2BE799EF001EAC45 /* swiftUIStudyApp.swift */,
 				78F327FC2BE799EF001EAC45 /* ContentView.swift */,
+				78F839562C12E614002B7AD7 /* calculatorBtnView.swift */,
+				78F839582C12E84D002B7AD7 /* CalculatorVM.swift */,
 				78CE0C8F2BEE177B00A00FE3 /* ButtonMF.swift */,
 				78F327FE2BE799F1001EAC45 /* Assets.xcassets */,
 				78F328002BE799F1001EAC45 /* Preview Content */,
@@ -142,7 +148,9 @@
 			files = (
 				78CE0C902BEE177B00A00FE3 /* ButtonMF.swift in Sources */,
 				78F327FD2BE799EF001EAC45 /* ContentView.swift in Sources */,
+				78F839592C12E84D002B7AD7 /* CalculatorVM.swift in Sources */,
 				78F327FB2BE799EF001EAC45 /* swiftUIStudyApp.swift in Sources */,
+				78F839572C12E614002B7AD7 /* calculatorBtnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
