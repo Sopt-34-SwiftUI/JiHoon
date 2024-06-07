@@ -28,16 +28,16 @@ struct ContentView: View {
                 VStack(spacing: 10) {
                     HStack(spacing: 10) {
                         Button(action: { self.buttonTapped("C") }) {
-                            Text("C").EtcButtonStyle()
+                            Text("C").etcButtonStyle()
                         }
                         Button(action: { self.buttonTapped("+") }) {
-                            Text("+").EtcButtonStyle()
+                            Text("+").etcButtonStyle()
                         }
                         Button(action: { self.buttonTapped("%") }) {
-                            Text("%").EtcButtonStyle()
+                            Text("%").etcButtonStyle()
                         }
                         Button(action: { self.buttonTapped("÷") }) {
-                            Text("÷").OperationButtonStyle()
+                            Text("÷").operationButtonStyle()
                         }
                     }
                     HStack(spacing: 10) {
@@ -51,7 +51,7 @@ struct ContentView: View {
                             Text("9").calculatorButtonStyle()
                         }
                         Button(action: { self.buttonTapped("x") }) {
-                            Text("x").OperationButtonStyle()
+                            Text("x").operationButtonStyle()
                         }
                     }
                     HStack(spacing: 10) {
@@ -65,7 +65,7 @@ struct ContentView: View {
                             Text("6").calculatorButtonStyle()
                         }
                         Button(action: { self.buttonTapped("-") }) {
-                            Text("-").OperationButtonStyle()
+                            Text("-").operationButtonStyle()
                         }
                     }
                     HStack(spacing: 10) {
@@ -79,7 +79,7 @@ struct ContentView: View {
                             Text("3").calculatorButtonStyle()
                         }
                         Button(action: { self.buttonTapped("+") }) {
-                            Text("+").OperationButtonStyle()
+                            Text("+").operationButtonStyle()
                         }
                     }
                     HStack(spacing: 10) {
@@ -97,7 +97,7 @@ struct ContentView: View {
                             Text(".").calculatorButtonStyle()
                         }
                         Button(action: { self.buttonTapped("=") }) {
-                            Text("=").OperationButtonStyle()
+                            Text("=").operationButtonStyle()
                         }
                     }
                 }
