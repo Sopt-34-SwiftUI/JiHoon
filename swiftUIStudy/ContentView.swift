@@ -15,7 +15,6 @@ struct ContentView: View {
             Color.black.edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer()
-                Text(viewModel.displayText)
                     .foregroundColor(.white)
                     .font(.system(size: 80))
                     .padding()
